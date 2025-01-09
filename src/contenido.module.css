@@ -1,0 +1,111 @@
+main{
+    background-color:greenyellow;
+    height:600px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+    flex-direction: row;
+}
+
+
+
+/* /nav estilos\ */
+nav{
+    background-color: rgba(104, 237, 188, 0.77);
+    border: dashed 5px white; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* /nav estilos\ */
+
+
+
+
+/* /section estilos\ */
+main section{
+    width:100%;
+    background-color:rgb(226, 233, 0);
+    border: dashed 5px rgb(255, 255, 255);
+    border-top: none; 
+    text-align: center;
+    justify-content: center;
+    height: 150%;
+
+}
+
+
+main section div{
+    h1{
+        font-size: 9rem;
+    }
+    h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+/* /section estilos\ */
+section section{
+    border: 0px;
+}
+
+section section div{ 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    div{
+        display: flex;
+        flex-direction: column;
+    } 
+
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /aside estilos\ */
+main aside{
+    width: 35%;
+    background-color:blueviolet;
+    padding: 20px 20px 20px 20px;
+    border: dashed 5px white; 
+    border-top: none;
+}
+
+main aside iframe { 
+    display: block; 
+    margin-bottom: 1px; 
+    margin-top: 16px;
+    margin-left: 15%;
+}
+/* /aside estilos\ */
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+    aside{
+        display:none;
+    }
+    main section{
+        width: 100%;
+    }
+
+  }
+

@@ -1,0 +1,18 @@
+.cabecera{
+    height:300px;
+    width:100%;
+    text-align: center;
+}
+
+figure img{
+    width: 50%;
+    object-fit: cover;
+    }
+
+@media (max-width:800px){
+    .cabecera{
+        background-color: greenyellow;
+        background-image: none;
+    }
+
+  }
