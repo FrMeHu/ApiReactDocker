@@ -7,7 +7,7 @@ import { Pokemongen2 } from './Cardspokemongen2';
 import { Pokemongen3 } from './Cardspokemongen3';
 import ImageAvatars1 from './Avatars1';
 import ImageAvatars2 from './Avatars2';
-
+import styles from './contenido.module.css'
 
 function Contenido() {
   return (
