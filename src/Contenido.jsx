@@ -3,7 +3,7 @@ import styles from './contenido.module.css'
 import BarraNav from './Nav'
 import { BrowserRouter as Router, Route, Routes, useParams, Outlet } from "react-router-dom";
 import {Pokemon}  from './Cardspokemon';
-import { Pokemongen1 } from './CardsPokemonGen1';
+import { Pokemongen1 } from './CardspokemonGen1';
 import { Pokemongen2 } from './Cardspokemongen2';
 import { Pokemongen3 } from './Cardspokemongen3';
 import ImageAvatars from './Avatars1';
