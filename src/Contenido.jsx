@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './contenido.module.css'
 import BarraNav from './Nav'
 import { BrowserRouter as Router, Route, Routes, useParams, Outlet } from "react-router-dom";
 import {Pokemon}  from './Cardspokemon';
