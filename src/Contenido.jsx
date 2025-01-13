@@ -6,7 +6,6 @@ import {Pokemon}  from './Cardspokemon';
 import { Pokemongen1 } from './CardspokemonGen1';
 import { Pokemongen2 } from './Cardspokemongen2';
 import { Pokemongen3 } from './Cardspokemongen3';
-import ImageAvatars from './Avatars1';
 import ImageAvatars1 from './Avatars1';
 import ImageAvatars2 from './Avatars2';
 
